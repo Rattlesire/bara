@@ -56,7 +56,7 @@ Written by Jessica Alouette <me@jessicaalouette.com>
 .CurtainBlockConfirm {
 	display: none;
 	padding: 10px;
-	background-color: lightgrey;
+	background-color: rgb(16, 138, 203);
 	font-weight: bold;
 	border: 0;
 	border-radius: 4px;
@@ -64,7 +64,7 @@ Written by Jessica Alouette <me@jessicaalouette.com>
 .CurtainBlockDeny {
 	display: none;
 	padding: 10px;
-	background-color: rgb(242, 151, 151);
+	background-color: black;
 	border: 0;
 	border-radius: 4px;
 }
