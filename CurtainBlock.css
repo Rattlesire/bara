@@ -1,0 +1,70 @@
+/* 
+CSS Version 1.2.1
+Written by Jessica Alouette <me@jessicaalouette.com>
+*/
+
+/* I recommend you don't change the curtain but I won't stop you if you're gonna */
+.CurtainBlock {
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999999;
+}
+
+/* You can totally change this to suit your needs though! */
+.CurtainBlockAlert {
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 25px;
+	background-color: rgb(255,255,255);
+	width: 500px;
+	max-width: 95%;
+	margin: 0 auto;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+	-o-box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+	-ms-box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+	box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.CurtainBlock h1 {
+	font-family: sans-serif; 
+	color: black;
+	font-size: 28px;
+	margin: 10px;
+}
+
+.CurtainBlock p {
+	font-family: sans-serif; 
+	color: black; 
+	text-align: justify; 
+	font-size: 16px;
+	margin: 10px;
+}
+
+.CurtainBlockConfirm {
+	display: none;
+	padding: 10px;
+	background-color: lightgrey;
+	font-weight: bold;
+	border: 0;
+	border-radius: 4px;
+}
+.CurtainBlockDeny {
+	display: none;
+	padding: 10px;
+	background-color: rgb(242, 151, 151);
+	border: 0;
+	border-radius: 4px;
+}
